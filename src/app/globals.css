@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Line clamp utilities */
+.line-clamp-1 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+}
+
+.line-clamp-2 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+.line-clamp-3 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+
+
+body {
+  @apply bg-white dark:bg-dark text-white dark:text-dark;
+  font-family: "Poppins", serif;
+}
+
+.button {
+  @apply bg-light dark:bg-dark px-4 py-2 border border-slate-300 dark:border-slate-500 flex items-center gap-2 rounded-full;
+}
+
+.title{
+  @apply text-base md:text-2xl font-semibold;
+}
+
+:where(.css-dev-only-do-not-override-cdzvx5).ant-select-outlined:not(.ant-select-customize-input) .ant-select-selector, :where(.css-dev-only-do-not-override-cdzvx5).ant-input-outlined, :where(.css-dev-only-do-not-override-cdzvx5).ant-form-item .ant-form-item-label > label {
+  @apply !bg-light !text-dark dark:!bg-dark dark:!text-light !text-sm 2xl:!text-base;
+}
