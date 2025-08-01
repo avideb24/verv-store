@@ -12,6 +12,7 @@ import {
     Button,
 } from "antd";
 import { UploadOutlined } from "@ant-design/icons";
+import "./index.css";
 
 const { TextArea } = Input;
 const { RangePicker } = DatePicker;

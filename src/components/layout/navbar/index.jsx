@@ -5,8 +5,12 @@ import { ShoppingCart, Plus } from "lucide-react";
 import { useEffect, useState } from "react";
 import { useCart } from "@/providers/cart-provider";
 import Theme from "../theme";
+import Image from "next/image";
+import logo from "@/assets/images/logo.png";
+
 
 const Navbar = () => {
+
     const { getCartCount } = useCart();
     const [scrolled, setScrolled] = useState(false);
 
@@ -22,14 +26,14 @@ const Navbar = () => {
     return (
         <header
             className={`sticky top-0 z-50 py-4 transition-all duration-300 bg-light dark:bg-dark ${scrolled
-                    ? "shadow-md border-b border-gray-200 dark:border-gray-700"
-                    : "border-b"
+                ? "shadow-md border-b border-gray-200 dark:border-gray-700"
+                : "border-b"
                 }`}
         >
             <div className="container">
                 <nav className="flex justify-between items-center">
-                    <Link href="/" className="text-xl font-bold">
-                        Verb Store
+                    <Link href="/" title="Verb Store">
+                        <Image src={logo} className="w-24 md:w-32" width={100} height={100} alt="Verb Store" />
                     </Link>
 
                     <div className="flex items-center space-x-4">

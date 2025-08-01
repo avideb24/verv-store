@@ -1,0 +1,179 @@
+/* Ant Design Dark Mode Overrides for FormInput Component */
+.dark .ant-input,
+.dark .ant-input-outlined,
+.dark .ant-input-outlined:hover,
+.dark .ant-input-outlined:focus,
+.dark .ant-input-outlined:focus-within {
+  background-color: #1a1a1a !important;
+  border-color: #4a5568 !important;
+  color: #ffffff !important;
+}
+
+.dark .ant-input::placeholder,
+.dark .ant-input-outlined::placeholder {
+  color: #a0aec0 !important;
+}
+
+.dark .ant-select-outlined .ant-select-selector,
+.dark .ant-select-outlined:hover .ant-select-selector,
+.dark .ant-select-outlined:focus .ant-select-selector {
+  background-color: #1a1a1a !important;
+  border-color: #4a5568 !important;
+  color: #ffffff !important;
+}
+
+.dark .ant-select-dropdown {
+  background-color: #1a1a1a !important;
+  border-color: #4a5568 !important;
+}
+
+.dark .ant-select-item {
+  color: #ffffff !important;
+}
+
+.dark .ant-select-item:hover {
+  background-color: #2d3748 !important;
+}
+
+.dark .ant-select-item-option-selected {
+  background-color: #4265a9 !important;
+}
+
+.dark .ant-form-item-label > label {
+  color: #ffffff !important;
+}
+
+.dark .ant-radio-wrapper {
+  color: #ffffff !important;
+}
+
+.dark .ant-checkbox-wrapper {
+  color: #ffffff !important;
+}
+
+.dark .ant-picker {
+  background-color: #1a1a1a !important;
+  border-color: #4a5568 !important;
+  color: #ffffff !important;
+}
+
+.dark .ant-picker-input > input {
+  color: #ffffff !important;
+}
+
+.dark .ant-picker-input > input::placeholder {
+  color: #a0aec0 !important;
+}
+
+.dark .ant-picker-dropdown {
+  background-color: #1a1a1a !important;
+  border-color: #4a5568 !important;
+}
+
+.dark .ant-picker-panel {
+  background-color: #1a1a1a !important;
+}
+
+.dark .ant-picker-content th,
+.dark .ant-picker-content td {
+  color: #ffffff !important;
+}
+
+.dark .ant-picker-cell:hover .ant-picker-cell-inner {
+  background-color: #2d3748 !important;
+}
+
+.dark .ant-picker-cell-selected .ant-picker-cell-inner {
+  background-color: #4265a9 !important;
+}
+
+/* Light mode overrides */
+.ant-input,
+.ant-input-outlined,
+.ant-input-outlined:hover,
+.ant-input-outlined:focus,
+.ant-input-outlined:focus-within {
+  background-color: #ffffff !important;
+  border-color: #d1d5db !important;
+  color: #1a1a1a !important;
+}
+
+.ant-input::placeholder,
+.ant-input-outlined::placeholder {
+  color: #6b7280 !important;
+}
+
+.ant-select-outlined .ant-select-selector,
+.ant-select-outlined:hover .ant-select-selector,
+.ant-select-outlined:focus .ant-select-selector {
+  background-color: #ffffff !important;
+  border-color: #d1d5db !important;
+  color: #1a1a1a !important;
+}
+
+.ant-select-dropdown {
+  background-color: #ffffff !important;
+  border-color: #d1d5db !important;
+}
+
+.ant-select-item {
+  color: #1a1a1a !important;
+}
+
+.ant-select-item:hover {
+  background-color: #f3f4f6 !important;
+}
+
+.ant-select-item-option-selected {
+  background-color: #4265a9 !important;
+  color: #ffffff !important;
+}
+
+.ant-form-item-label > label {
+  color: #1a1a1a !important;
+}
+
+.ant-radio-wrapper {
+  color: #1a1a1a !important;
+}
+
+.ant-checkbox-wrapper {
+  color: #1a1a1a !important;
+}
+
+.ant-picker {
+  background-color: #ffffff !important;
+  border-color: #d1d5db !important;
+  color: #1a1a1a !important;
+}
+
+.ant-picker-input > input {
+  color: #1a1a1a !important;
+}
+
+.ant-picker-input > input::placeholder {
+  color: #6b7280 !important;
+}
+
+.ant-picker-dropdown {
+  background-color: #ffffff !important;
+  border-color: #d1d5db !important;
+}
+
+.ant-picker-panel {
+  background-color: #ffffff !important;
+}
+
+.ant-picker-content th,
+.ant-picker-content td {
+  color: #1a1a1a !important;
+}
+
+.ant-picker-cell:hover .ant-picker-cell-inner {
+  background-color: #f3f4f6 !important;
+}
+
+.ant-picker-cell-selected .ant-picker-cell-inner {
+  background-color: #4265a9 !important;
+  color: #ffffff !important;
+} 

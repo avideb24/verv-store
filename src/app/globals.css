@@ -26,9 +26,8 @@
   -webkit-line-clamp: 3;
 }
 
-
 body {
-  @apply bg-white dark:bg-dark text-white dark:text-dark;
+  @apply bg-white dark:bg-dark text-black dark:text-white;
   font-family: "Poppins", serif;
 }
 
@@ -38,8 +37,4 @@ body {
 
 .title{
   @apply text-base md:text-2xl font-semibold;
-}
-
-:where(.css-dev-only-do-not-override-cdzvx5).ant-select-outlined:not(.ant-select-customize-input) .ant-select-selector, :where(.css-dev-only-do-not-override-cdzvx5).ant-input-outlined, :where(.css-dev-only-do-not-override-cdzvx5).ant-form-item .ant-form-item-label > label {
-  @apply !bg-light !text-dark dark:!bg-dark dark:!text-light !text-sm 2xl:!text-base;
 }
