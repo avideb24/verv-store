@@ -68,6 +68,7 @@ export default function AddProduct() {
     e.preventDefault();
 
     if (!validateForm()) {
+      toast.error("Please fill all the fields.");
       return;
     }
 

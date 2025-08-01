@@ -10,7 +10,7 @@ export default {
     extend: {
       fontFamily: {
         primary: ['Poppins', 'sans-serif'],
-        secondary: ['Oswald', 'sans-serif'], 
+        secondary: ['Archivo Black', 'sans-serif'], 
       },
       colors: {
         primary: "#4265a9",

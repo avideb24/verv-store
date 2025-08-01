@@ -100,9 +100,9 @@ export default function Home() {
       <div className="container">
 
         {/* title */}
-        <div className="mb-8">
-          <h1 className="title">Our Products</h1>
-          <p>Discover amazing products at great prices</p>
+        <div className="text-center mb-8">
+          <h1 className="title font-secondary">Explore Our Collection</h1>
+          <p>Fresh styles and everyday essentials you'll love.</p>
         </div>
 
         {/* search and filters */}

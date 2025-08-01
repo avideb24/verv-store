@@ -25,9 +25,9 @@ const Navbar = () => {
 
     return (
         <header
-            className={`sticky top-0 z-50 py-4 transition-all duration-300 bg-light dark:bg-dark ${scrolled
-                ? "shadow-md border-b border-gray-200 dark:border-gray-700"
-                : "border-b"
+            className={`sticky top-0 z-50 py-2 2xl:py-3 transition-all duration-300 bg-light dark:bg-dark border-b border-gray-200 dark:border-gray-700 ${scrolled
+                ? "shadow-md"
+                : ""
                 }`}
         >
             <div className="container">

@@ -85,7 +85,7 @@ export default function ProductDetail() {
   return (
     <div className="container">
 
-      <Breadcrumb items={[{ title: 'Home', }, { title: 'Products', }, { title: `${product.title}`, }]} className='pb-8 text-sm 2xl:text-base font-primary' />
+      <Breadcrumb items={[{ title: 'Home', }, { title: 'Products', }, { title: `${product.title}`, }]} className='pb-8 text-xs 2xl:text-base font-primary' />
 
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
         {/* Product Image */}
@@ -125,7 +125,7 @@ export default function ProductDetail() {
             <p className="text-3xl font-bold text-green-600 dark:text-green-400 mb-4">
               ${product.price}
             </p>
-            <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
+            <p className="text-xs 2xl:text-base text-gray-700 dark:text-gray-300 leading-relaxed">
               {product.description}
             </p>
           </div>
